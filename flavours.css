@@ -1,0 +1,55 @@
+.flavour-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.flavour-grid div {
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 15px;
+}
+.flavour-grid div {
+    text-align: center;
+}
+.flavour-grid img {
+    border-radius: 10px;
+}
+.flavour-grid h3 {
+    color: #ff3333;
+    font-size: 22px;
+}
+.flavour-grid p {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+
+    background: linear-gradient(
+        to right,
+        red,
+        orange,
+        yellow,
+        lime,
+        blue,
+        violet
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #ff1744;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.home-button:hover {
+    background-color: #9c0033;
+    transform: scale(1.05);
+}

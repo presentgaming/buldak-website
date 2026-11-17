@@ -1,0 +1,60 @@
+body {
+    background-image: url("images/buldak\ wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: "Cinzel Decorative", serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+nav a {
+    color: rgb(176, 54, 54);
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+nav a {
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff3333;
+}
+.p1 { 
+    text-align: center;
+    font-size: large;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+}
+@media (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}

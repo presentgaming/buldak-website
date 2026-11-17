@@ -1,0 +1,84 @@
+
+body {
+    background-image: url("images/wallpaper\ carbonara.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #ff8fab;
+    font-size: 40px;
+}
+
+.intro {
+    color: #f5c6d6;
+    font-size: 18px;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.product-image {
+    width: 250px;
+    height: auto;
+}
+.home-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #ff1744;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.home-button:hover {
+    background-color: #9c0033;
+    transform: scale(1.05);
+}
+
+.product-info {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: fit-content;
+    max-width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.product-info h2 {
+    color: #ff8fab;
+    text-align: center;
+}
+.recipe ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.recipes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.recipe {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+@media (max-width: 700px) {
+    .recipes {
+        grid-template-columns: 1fr;
+    }
+}
