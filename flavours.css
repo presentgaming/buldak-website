@@ -39,7 +39,8 @@
     -webkit-text-fill-color: transparent;
 }
 .home-button {
-    display: inline-block;
+    display: table;
+    margin: 20px auto;
     padding: 12px 25px;
     background-color: #ff1744;
     color: white;
@@ -52,4 +53,31 @@
 .home-button:hover {
     background-color: #9c0033;
     transform: scale(1.05);
+}
+h1 {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 42px;
+    text-align: center;
+    color: #ff3030;
+    text-shadow: 0 0 15px rgba(255, 48, 48, 0.6);
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #ffaaaa;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+section h2 {
+    color: #ff3030;
+    font-family: "Cinzel Decorative", serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 35px;
+    border-bottom: 2px solid #ff3030;
+    padding-bottom: 12px;
 }

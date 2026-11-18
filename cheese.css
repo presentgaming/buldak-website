@@ -1,0 +1,134 @@
+
+body {
+    background-color: #ffcc00;
+    background-image: url("images/wallpaper cheese.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+h1 {
+    color: #ffd700;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.intro {
+    color: #ffe699;
+    font-size: 19px;
+    max-width: 750px;
+    margin: 20px auto 35px;
+    line-height: 1.7;
+    text-align: center;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.3);
+}
+
+.product-image {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.home-button {
+    display: table;
+    margin: 20px auto;
+    padding: 12px 25px;
+    background-color: #fc0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.home-button:hover {
+    background-color: #ff0000;
+    transform: scale(1.05);
+}
+
+.product-info {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: fit-content;
+    max-width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.product-info h2 {
+    color: #ffd700;
+    text-align: center;
+}
+
+body > h2 {
+    text-align: center;
+    color: #ffd700;
+}
+
+.recipe ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.recipe {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 300px;
+    padding: 25px;
+    border-radius: 18px;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 215, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recipes {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.recipe h3 {
+    color: #ffd700;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 12px;
+}
+
+.recipe h4 {
+    color: #ffe699;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.recipe li {
+    color: #eeeeee;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 8px;
+}
+
+.recipe:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+}
+
+@media (max-width: 700px) {
+    .recipes {
+        flex-direction: column;
+        align-items: center;
+    }
+}
